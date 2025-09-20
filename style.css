@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(30, 29, 33);
+}
+
+ul {
+    text-align: center;
+    color: rgb(211, 207, 207);
+    list-style-type: none;
+    font-family: 'Manrope';
+    padding: 15px;
+}
+
+li {
+    transition: color 0.2s, scale 0.1s;
+}
+
+li:hover{
+    color: white;
+    scale: 1.1;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-weight: 100;
+    font-size: 40px;
+    color:rgb(226, 230, 233);
+}
+
+button {
+    background: linear-gradient(to bottom, rgb(71, 56, 27), transparent);
+    border: 0px;
+    border-top: 2px solid rgb(236, 193, 130);
+    color: rgb(223, 218, 218);
+    padding: 15px;
+    font-family: 'Manrope';
+    font-size: large;
+    transition: filter 0.5s, border-top 0.1s;
+}
+
+button:hover{
+    filter: brightness(150%);
+    border-top: 4px solid rgb(236, 193, 130);
+}
+
+button:active{
+    filter: brightness(0%);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.goldenOutlineBox {
+    background: linear-gradient(to top, rgb(13, 13, 13), rgb(43, 43, 45));
+    /* Borde dorado */
+    border: 2px solid rgb(227, 179, 107);
+    border-radius: 8px;
+}
