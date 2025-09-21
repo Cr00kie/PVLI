@@ -1,0 +1,38 @@
+<!-- Por Adrian Isasi -->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Probando CSS</title>
+        <script src="HideAlert.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Montserrat">
+    </head>
+    <body>
+        <header class="gradient-border mainmenu-header">
+            Trying out CSS
+        </header>
+        <div class="flex-container-row">
+            <nav class = "gradient-border" style="flex-grow: 5">
+                <ul>
+                    <li><a href="items.html" class="left-button">Items List</a></li>           
+                    <li><a class="left-button">Useless button</a></li>
+                    <li><a class="left-button">Other useless button</a></li>
+                    <li><a class="left-button">More useless button</a></li>
+                </ul>
+            </nav>
+            <div id="alert-block" class="gradient-border block-section" style="flex-grow: 1;">
+                <div class="flex-container-column">
+                    <img src="img/AlertIcon.png" style="width: 24px; height: 24px; filter:invert(); margin: 5px;">
+                    <p class="message-text" style="color:rgb(192, 200, 206); font-size: large;">- Note -</p>
+                    <p class="message-text">This took too much time.</p>
+                    <button id="hide-alert-button" class="center-button">OK</button>
+                </div>
+            </div>
+        </div>
+        <footer class="gradient-border">
+            Made by Adrián Isasi.
+        </footer>
+    </body>
+</html>
